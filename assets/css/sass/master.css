@@ -1,0 +1,206 @@
+body {
+  overflow-x: hidden;
+  background-color: #f3f3ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.icons {
+  width: 150px;
+  height: 60px;
+}
+.icons > img {
+  width: 100%;
+  height: 100%;
+}
+
+nav > ul li {
+  font-size: 20px;
+  cursor: pointer;
+}
+nav > ul li:hover {
+  color: black !important;
+  transition: 0.4s;
+}
+nav > ul li:nth-of-type(3) {
+  position: relative;
+}
+nav > ul li:nth-of-type(3):hover > ul {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.4s;
+}
+nav > ul li:nth-of-type(3) > ul {
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgb(255, 250, 250);
+  border-radius: 10px;
+  left: 0;
+  bottom: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+nav > ul li:nth-of-type(3) > ul > li {
+  padding: 10px;
+  font-size: 1rem;
+  text-wrap: nowrap;
+}
+
+.btncolor > a {
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: 0.4s;
+}
+.btncolor > a:nth-of-type(2) {
+  background-color: #4851d5;
+}
+.btncolor > a:nth-of-type(2):hover {
+  transform: scale(1.02);
+}
+
+.sec2 > section:nth-of-type(1) > span {
+  color: #4851d5;
+  display: flex;
+}
+.sec2 > section:nth-of-type(1) > a {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+.sec2 > section:nth-of-type(1) > a:hover {
+  transform: scale(1.05);
+}
+.sec2 > section:nth-of-type(1) > a:nth-of-type(1) {
+  color: #f3f3ff;
+  background-color: #4851d5;
+}
+.sec2 > section:nth-of-type(1) > a:nth-of-type(2) {
+  border: 2px solid #4851d5;
+}
+.sec2 > section:nth-of-type(2) > figure > img {
+  width: 100%;
+  height: 100%;
+}
+
+.box-Support {
+  background-color: #4851d5 !important;
+}
+.box-Support > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-meddic .row .box_aboutmeddice span:nth-of-type(1) {
+  color: #4851d5;
+}
+.about-meddic .row .box_aboutmeddice > a {
+  background-color: #4851d5;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+  transition: 0.4s;
+}
+.about-meddic .row .box_aboutmeddice > a:hover {
+  transform: scale(1.05);
+}
+.about-meddic .row div:nth-of-type(1) > figure, .about-meddic .row div:nth-of-type(2) > figure {
+  width: 300px;
+  height: 600px;
+}
+.about-meddic .row div:nth-of-type(1) > figure > img, .about-meddic .row div:nth-of-type(2) > figure > img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+.img-cover{
+  object-fit: cover;
+}
+.our_services .row div:nth-of-type(1) span {
+  color: #4851d5;
+}
+.our_services .row div:nth-of-type(2) .row > div {
+  overflow: hidden;
+  transition: 0.6s;
+  flex-direction: column;
+  background-color: #e6e6ff;
+  border-radius: 20px;
+}
+.our_services .row div:nth-of-type(2) .row > div:hover {
+  border: 1.5px solid #4851d5 !important;
+}
+.our_services .row div:nth-of-type(2) .row > div .logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: #f3f3ff;
+}
+.our_services .row div:nth-of-type(2) .row > div a,
+.our_services .row div:nth-of-type(2) .row > div i {
+  color: #4851d5;
+}
+
+.working-hours {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../img/young-multiracial-doctor-sitting-at-reception-and-GCCHF87\ \(2\).jpg);
+  background-size: cover;
+}
+.working-hours .row > div {
+  border-radius: 5px;
+}
+.working-hours .row > div,
+.working-hours .row td {
+  background-color: #4851d5 !important;
+}
+
+.myfooter {
+  background-color: #4851d5 !important;
+}
+.myfooter li:hover {
+  cursor: pointer;
+}
+.myfooter > footer div img {
+  width: 150px;
+  height: 50px;
+  color: white;
+}
+
+.our-dr .row .box-our-dr span {
+  color: #4851d5 !important;
+}
+.our-dr .row figure {
+  width: 300px;
+  height: 350px;
+}
+.our-dr .row figure > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}/*# sourceMappingURL=master.css.map */
